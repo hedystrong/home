@@ -1,0 +1,73 @@
+.end{
+    width: 1920px;
+    height: 463px;
+    background: #063255;
+    color: #FFFFFF;
+}
+.endFooter{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.logo h3{
+    width: 351px;
+    height: 88px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+.logo p{
+    font-size: 24px;
+}
+.endP{
+    font-size: 18px;
+}
+.logo ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 70%;
+}
+.footer1 h3{
+    font-size: 18px;
+}
+.footer2 h3{
+    font-size: 18px;
+}
+.input input textarea{
+    position: absolute;
+    width: 342px;
+    height: 54px;
+    border-radius: 31px;
+}
+.footer2 button{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 106.5%;
+    background: #F58A07;
+    color:#FFFFFF;
+    border-radius: 31px;
+    padding: 10px 17px 10px 17px;
+    border: solid 0 #F58A07;
+}
+.endFooter1{
+    display: flex;
+    justify-content: space-between;
+}
+.footerAll{
+    width: 70%;
+}
+.endFooter1{
+    padding-top: 50px;
+}
+.footer2::after{
+    position: absolute;
+    content: url(../images/Shape\ Right.jpg);
+    left: 1875px;
+}
+.logo::before{
+    position: absolute;
+    content: url(../images/Shape\ Left.jpg);
+    right: 1597px;
+    top: 6485px;
+}
