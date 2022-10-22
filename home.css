@@ -1,19 +1,12 @@
 /*BANNER START*/
 .banner{
-    width: 1933px;
     height: 703px;
     background: #DCEAF5;
 }
 .banner .container{
     width: 100%;
-    max-width: 1376px;
     height: 703px;
     display: flex;
-    padding-left: 50px;
-}
-.bannerText{
-    width: 600px;
-    align-self: center;
 }
 .bannerText h2{
     font-weight: 600;
@@ -38,6 +31,9 @@
     font-weight: 600;
     background: #F58A07;
     border-radius: 27px;
+    padding: 1px 30px 1px 30px;
+}
+#our{
     color: #FFFFFF;
 }
 .all{
@@ -60,18 +56,6 @@
     display: flex;
     align-items: center;
 }
-.icon1 img{
-    width: 34px;
-    height: 33px;
-}
-.icon2 img{
-    width: 30px;
-    height: 31px;
-}
-.icon3 img{
-    width: 22px;
-    height: 32px;
-}
 .bannerImg{
     max-width: 747px;
     height: 618px;
@@ -80,8 +64,6 @@
 }
 /*SECTION 1 START*/
 .sectionHelp{
-    width: 1920px;
-    background: white;
     height: 933px;
     padding-top: 50px;
 }
@@ -121,37 +103,20 @@
     line-height: 28px;
     color: #5B5B5B;
 }
-.card a{
+.sctHelp-P{
+    position: relative;
     font-weight: 500;
     font-size: 16px;
     line-height: 106.5%;
     color: #F58A07;
 }
-.card a::after{
+.sctHelp-P::after{
     position: absolute;
-    color: #F58A07;
-    left: 430px;
-    top: 1562px;
+    left: 115px;
     content: url(./images/Icon.svg);
 }
-.card a::before{
-    position: absolute;
-    color: #F58A07;
-    left: 870px;
-    top: 1562px;
-    content: url(./images/Icon.svg);
-}
-.card p::after{
-    position: absolute;
-    color: #F58A07;
-    left: 1310px;
-    top: 1558px;
-    content: url(./images/Icon.svg);
-}
-
 /*SECTION 2 START*/
 .sctFeaures{
-    width: 1920px;
     height: 665px;
     background: #EDF7FF;
 }
@@ -187,7 +152,6 @@
 }
 /*SECTION 3 START*/
 .sctAbout{
-    width: 1920px;
     height: 836px;
     background: white;
     padding: 50px 0 50px 0;
@@ -197,14 +161,12 @@
     justify-content: space-between;
 }
 .leftSlide h2{
-    width: 596px;
     font-weight: 600;
     font-size: 48px;
     line-height: 56px;
     color: #0D1317;
 }
 .leftSlide p{
-    width: 510px;
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
@@ -221,7 +183,6 @@
     color: #0D1317;
 }
 .middle p{
-    width: 264px;
     font-weight: 500;
     line-height: 28px;
     color: #5B5B5B;
@@ -234,7 +195,7 @@
     font-family: 'Inter', sans-serif;
 }
 .sctAbout-right img{
-    border-radius: 20px
+    border-radius: 20px;
 }
 .sctAbout-right::before{
     position: absolute;
@@ -245,7 +206,6 @@
 }
 /*SECTION 4 START*/
 .sctService{
-    width: 1920px;
     height: 800px;
 }
 .sctService .container{
@@ -290,20 +250,24 @@
     line-height: 30px;
     color: #5B5B5B;
 }
-.service-left a{
+.sctService-P{
     font-weight: 500;
     line-height: 106.5%;
     color: #F58A07;
 }
-.service-left a::after{
+.sctService-P::after{
     position: absolute;
     content: url(./images/Icon.svg);
-    left: 510px;
-    top: 3844px;
+    left: 430px;
+    top: 3838px;
 }
 .service-right img{
     border-radius: 20px;
     padding: 120px 0 0 50px;
+    position: relative;
+}
+.service-right{
+    position: relative;
 }
 .service-right::before{
     position: absolute;
@@ -311,32 +275,26 @@
     background: #F58A07;
     mix-blend-mode: multiply;
     border-radius: 20px 0px 0px 20px;
-    left: 1090px;
-    top: 3398px;
+    left: 990px;
+    top: 3399px;
     height: 466px;
 }
 .service-right::after{
     position: absolute;
     content: url(./images/Ribbon.png);
     left: 1446px;
-    top: 3213px;
+    top: 2713px;
 }
 /*SECTION 5 START*/
 .ctaSection{
-    width: 1930px;
     height: 518px;
     display: flex;
 }
-.ctaSection-left{
-    width: 960px;
-}
 .ctaSection-right{
-    width: 960px;
     background: #F58A07;
     padding: 70px 50px 200px 90px;
 }
 .ctaSection-right h3{
-    width: 532px;
     height: 168px;
     font-weight: 600;
     font-size: 48px;
@@ -354,7 +312,6 @@
 }
 /*SECTION 6 START*/
 .sctVideo{
-    width: 1920px;
     height: 800px;
 }
 .sctVideo .container{
@@ -414,18 +371,14 @@ ul li{
     top: 5136px;
     left: 1062px;
 }
-
-
 /*SECTION 7 START*/
 .sctLatest{
-    width: 1920px;
     height: 819px;
     background: #DCEAF5;
     padding-top: 50px;
 }
 .latest{
     display: flex;
-    width: 1280px;
     height: 507px;
     justify-content: space-between;
 }
@@ -443,7 +396,6 @@ ul li{
     border-radius: 20px 20px 20px 20px;
 }
 .card2 img{
-    width: 400px;
     height: 230px;
     border-radius: 20px 20px 0px 0px;
 }

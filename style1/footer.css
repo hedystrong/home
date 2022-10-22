@@ -1,5 +1,4 @@
 .end{
-    width: 1920px;
     height: 463px;
     background: #063255;
     color: #FFFFFF;
@@ -39,6 +38,7 @@
     width: 342px;
     height: 54px;
     border-radius: 31px;
+    background: #FFFFFF;
 }
 .footer2 button{
     font-weight: 600;
@@ -68,6 +68,16 @@
 .logo::before{
     position: absolute;
     content: url(../images/Shape\ Left.jpg);
-    right: 1597px;
+    right: 1883px;
     top: 6485px;
+
+}
+input {
+    background-color: ;
+    border: ;
+    border: none;
+    color: ;
+    width: ;
+    height: ;
+
 }
